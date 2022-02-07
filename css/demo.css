@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(219, 106, 106);
+    background-color: rgb(47, 102, 184);
     color: whitesmoke;
     text-align: center;
 }
@@ -36,7 +36,7 @@ img {
 }
 
 .drank {
-    transition: 2.5s;
+    transition: 3.5s;
     border:10px solid saddlebrown;
 }
 
