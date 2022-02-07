@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Page</title>
+    <link rel="stylesheet" href="css/demo.css">
+</head>
+
+<body onload="onInit()">
+    <h1>Demo</h1>
+    <h2>Can we make it easier?</h2>
+    <p><span>jQuery</span> ---------- <span>jQuery</span> ----------  <span>jQuery</span>!</p>
+    <button class="btn-drink" onclick="onDrink(event, this)" data-puk="17">
+        Drink!
+    </button>
+    <div class="info">
+        <h3>What is jQuery about?</h3>
+        It deals with things like:
+        <ul>
+            <li>DOM manipulation</li>
+            <li>Event handling</li>
+            <li><input type="text" placeholder="More?"></li>
+        </ul>
+        <img src="img/audi.png" />
+    </div>
+
+    <footer>
+        <p>
+            Coffeerights:
+            <span>
+                <script>document.write(new Date().getFullYear())</script>
+            </span>
+        </p>
+        <a href="http://google.com" title="Use Google">
+            Go Search
+        </a>
+    </footer>
+
+    <script src="lib/jquery.js"></script>
+    <script src="js/demo.js"></script>
+</body>
+
+</html>
